@@ -6,7 +6,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
+.container,
+.message-int {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,4 +86,8 @@ body {
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   transition: 0.35s;
   color: white;
+}
+
+.hidden {
+  display: none;
 }

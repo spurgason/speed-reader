@@ -37,11 +37,14 @@
       ></textarea>
 
       <div class="wpm-container">
-        <i class="bi bi-plus-circle-fill"></i>
-        <input id="wpm" type="number" min="0" value="30" />
-        <i class="bi bi-dash-circle-fill"></i>
+        <i class="bi bi-plus-circle-fill" id="add"></i>
+        <input id="wpm" type="number" min="0" value="5" />
+        <i class="bi bi-dash-circle-fill" id="subtract"></i>
       </div>
-      <button class="btn">Start</button>
+      <button class="btn start-btn">Start</button>
+    </div>
+    <div class="message-int hidden">
+      <h2 id="display-msg"></h2>
     </div>
   </body>
   <!-- Bootstrap JS -->
@@ -50,4 +53,5 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"
   ></script>
+  <script src="./assets/javascript/script.js"></script>
 </html>
