@@ -1,1 +1,1 @@
-# speed-reader
+# Speed Reader
