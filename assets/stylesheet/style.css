@@ -75,7 +75,13 @@ body {
   color: #dc3545;
 }
 
+.text-muted {
+  margin: 5px 0px;
+  text-align: center;
+}
+
 .btn {
+  margin-top: 0px;
   font-size: 20px;
   background-color: var(--main-color);
   color: white;
