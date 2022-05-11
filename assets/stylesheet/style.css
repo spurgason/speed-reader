@@ -19,6 +19,10 @@ body {
   margin-top: 10px;
 }
 
+#display-msg {
+  font-size: 70px;
+}
+
 span {
   color: var(--main-color);
 }
